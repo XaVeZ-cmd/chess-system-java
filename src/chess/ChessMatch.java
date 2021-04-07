@@ -58,7 +58,7 @@ public class ChessMatch {
 	
 	private void validateTargetPosition(Position source, Position target) {
 		if(!board.piece(source).possibleMove(target)) {
-			throw new ChessException("A peca escolhida não pode se mover para a posicao de destino");
+			throw new ChessException("A peca escolhida nao pode se mover para a posicao de destino");
 		}
 	}
 	
